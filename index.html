@@ -5,6 +5,11 @@
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
+    <script type="text/javascript">
+        var onloadCallback = function() {
+          alert("grecaptcha is ready!");
+        };
+      </script>
     <h1>私は人間なのだろうか。</h1>
     <form action="?" method="POST">
         <div class="g-recaptcha" data-sitekey="6LdeEAkbAAAAANTjnY2v5fKVfrcXdzoibRb08phl"></div>
